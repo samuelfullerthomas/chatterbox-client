@@ -63,10 +63,15 @@ form input[type=text] {
     padding: 5px;
     margin-bottom: 5px;
     background-color: #eee;
+    display:block;
 }
 
 .chat .username {
     font-weight: 800;
+    cursor:pointer;
+}
+.chat .username:hover{
+    color:orange;
 }
 
 .chat:hover {
@@ -81,4 +86,8 @@ form input[type=text] {
 
 .spinner img {
     padding: 10px;
+}
+
+.bold{
+    color:red;
 }
